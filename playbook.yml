@@ -1,9 +1,9 @@
 ---
 
 -
-        hosts: *
+        hosts: all
         tasks:
                 -
                         name: test
-                        command: sleep 150s
+                        command: touch touch_file
             
