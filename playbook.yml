@@ -1,9 +1,9 @@
 ---
 
 -
-        hosts: mongodb-103
+        hosts: all
         tasks:
                 -
                         name: test
-                        command: touch touch_file
+                        file: name=touch_file state=touch
             
